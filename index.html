@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#000">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaquery.css">
     <title>Fred David Solís Gutiérrez - Front-End Developer</title>
 </head>
 <body>
 <header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#"><i id="terminal-icon" class="fa-solid fa-terminal"></i></a>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+    <a class="navbar-brand"><i id="terminal-icon" class="fa-solid fa-terminal"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa-solid fa-bars-staggered"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
         </li>
@@ -32,30 +32,88 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
+    </div>
   </nav>
-<section id="home">
-  <div id="home-background"></div>
-<div class="container">
-  <div class="row">
-    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fred-top">
-    <h1>Fred David<br>
-      Solís Gutiérrez<br>
-      <span>
-        Front-end 
-        Developer
-      </span>
-    </h1>
 
-    <!-- class="col-xs-12 col-sm-6 col-md-6 col-lg-6" -->
+<div id="home">
+    <div id="home-background"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fred-top">
+      <h1>Fred David<br>
+        Solís Gutiérrez<br>
+        <span>
+          Front-end 
+          Developer
+        </span>
+      </h1>
+      <p>Development of web sites and<br>
+      applications with <a id="bootstrap">Bootstrap</a>,<br>
+      <a id="tailwind">Tailwind</a>, <a id="angular">Angular</a> and more!</p>
 
-    <p>Development of web sites and<br>
-    applications with <a id="bootstrap">Bootstrap</a>,<br>
-    <a id="tailwind">Tailwind</a>, <a id="angular">Angular</a> and more!</p>
-    </section>
+      <a id="downloadbutton-link" href="#" target="_blank">
+        <div id="downloadbutton-wrapper">
+          <div id="downloadbutton-iconwrapper">
+            <i id="iconcv" class="fa-solid fa-code fa-2x"></i>
+            <i id="downloadbutton-ring"></i>
+          </div>
+          <div id="downloadbutton-textwrapper">
+            <p id="resume-text">Resume (CV)</p>
+            <p id="resume-downloadtext">Download</p>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
-</section>
+</div>
 </header>
+
+<section id="about">
+  <div id="icon-container" class="container">
+      <div class="row" id="icon-section1">
+        <div id="intuitive-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
+          <div class="circle1">
+            <i class="fa-solid fa-eye fa-2x icons"></i>
+            <h3 class="icon-h3">Intuitive</h3>
+            <p></p>
+          </div>
+        </div>
+        <div id="fast-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
+          <div class="circle1">
+            <i class="fa-solid fa-gauge-high fa-2x icons"></i>
+            <h3 class="icon-h3">Fast</h3>
+          </div>
+        </div>
+        <div id="dynamic-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
+          <div class="circle1">
+            <i class="fa-solid fa-rocket fa-2x icons"></i>
+            <h3 class="icon-h3">Dynamic</h3>
+          </div>
+        </div>
+      <div id="responsive-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
+        <div class="circle1">
+          <i class="fa-solid fa-laptop-code fa-2x icons"></i>
+          <h3 class="icon-h3">Responsive</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about-text" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about">
+        <h2>About me</h2>
+        <p>Hello there! I’m Fred David, Web Developer/Programmer.<br>
+        <br>I’m a Front-end developer, aiming to learn as much as possible in the front-end part to then long-term aim at being considered a Full-stack developer with the projects I make along the way and the Back-end languages I learn.<br>
+        <br>I specialize on JavaScript, and I’m very invested in making code as efficient as possible to further enhance productivity individually and team-based.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about-skills">
+        <h2>Skills</h2>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://kit.fontawesome.com/a583977524.js" crossorigin="anonymous"></script>

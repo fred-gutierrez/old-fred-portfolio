@@ -1,10 +1,12 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
 #fred-top {
     margin-top: 170px;
     color: white;
-}
-
-h1 {
-    font-weight: bold;
 }
 
 .navbar {
@@ -36,7 +38,7 @@ h1 {
 }
 
 #home-background {
-    background-image: url(/images/167118599-3162cab4-cddf-4e65-b69c-0429807222fa.gif);
+    background-image: url(../images/167118599-3162cab4-cddf-4e65-b69c-0429807222fa.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -64,4 +66,86 @@ h1 {
     color: #EE4B2B;
     font-weight: bold;
     font-style: italic;
+}
+
+/* Download Button */
+
+#downloadbutton-link {
+    text-decoration: none;
+}
+
+#downloadbutton-wrapper {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%) repeat scroll 0% 0%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px, rgba(23, 0, 102, 0.2) 0px 20px 40px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+    border-radius: 20px;
+    max-width: 270px;
+    margin: 0 auto;
+    height: 75px;
+    padding: 12px;
+    display: grid;
+    border: 0px none;
+    grid-template-columns: 53px auto;
+    gap: 20px;
+}
+
+#downloadbutton-textwrapper {
+    display: grid;
+    text-align: left;
+}
+
+#downloadbutton-textwrapper > p {
+    color: black !important;
+}
+
+#resume-text {
+    font-weight: bold;
+    text-transform:uppercase;
+    margin: 0;
+}
+
+#resume-downloadtext {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#iconcv {
+    line-height: 1.5;
+}
+
+/* About Me Section */
+
+#about {
+    background-color: #ffffff;
+    margin-top: 5vh;
+}
+
+.circle1 {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(255, 255, 255) 0%, rgb(12, 158, 255) 100%) repeat scroll 0% 0%;
+    border-radius: 50px;
+    border: 3px black solid;
+    box-shadow: 10px black solid;
+}
+
+.icons {
+    margin-top: 25%;
+}
+
+#icon-container {
+    line-height: 60px;
+}
+
+#about-text {
+    margin-top: 150px;
+}
+
+#fred-about > h2 {
+    text-align: center;
+}
+
+#fred-about-skills > h2 {
+    text-align: center;
 }
