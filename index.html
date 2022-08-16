@@ -20,16 +20,16 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -48,8 +48,9 @@
         </span>
       </h1>
       <p>Development of web sites and<br>
-      applications with <a id="bootstrap">Bootstrap</a>,<br>
-      <a id="tailwind">Tailwind</a>, <a id="angular">Angular</a> and more!</p>
+      applications with <i class="fa-brands fa-bootstrap bootstrap"></i><a class="bootstrap"> Bootstrap</a>,<br>
+      <i class="fa-brands fa-react react"></i><a class="react"> React</a>, <i class="fa-brands fa-angular angular"></i>
+      <a class="angular"> Angular</a> and more!</p>
 
       <a id="downloadbutton-link" href="#" target="_blank">
         <div id="downloadbutton-wrapper">
@@ -67,35 +68,54 @@
   </div>
 </div>
 </div>
+<img id="wave1" src="images/wave1.svg">
 </header>
 
 <section id="about">
-  <div id="icon-container" class="container">
-      <div class="row" id="icon-section1">
-        <div id="intuitive-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
+  <div id="about-background"></div>
+  <img id="wave2" src="images/wave2.svg">
+  <h2 id="abouth2">About</h2>
+    <div id="icon-container" class="container">
+        <div class="row" id="icon-section1">
+
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div id="intuitive-icon" class="d-flex justify-content-center">
+            <div class="circle1">
+              <i class="fa-solid fa-eye fa-2x icons"></i>
+            </div>
+          </div>
+          <h3 class="icon-h3">Intuitive</h3>
+          <p class="paragraph1">High inclination for the ease of use, intuitive UX/UI.</p>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div id="fast-icon" class="d-flex justify-content-center">
+            <div class="circle1">
+              <i class="fa-solid fa-gauge-high fa-2x icons"></i>
+            </div>
+          </div>
+          <h3 class="icon-h3">Fast</h3>
+          <p class="paragraph1">Quick load times accompanied with smooth interactivity.</p>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div id="dynamic-icon" class="d-flex justify-content-center">
+            <div class="circle1">
+              <i class="fa-solid fa-rocket fa-2x icons"></i>
+            </div>
+          </div>
+          <h3 class="icon-h3">Dynamic</h3>
+          <p class="paragraph1">JavaScript was made for a reason, to make website feel alives, so let's make use of it!</p>
+        </div>
+
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div id="responsive-icon" class="d-flex justify-content-center">
           <div class="circle1">
-            <i class="fa-solid fa-eye fa-2x icons"></i>
-            <h3 class="icon-h3">Intuitive</h3>
-            <p></p>
+            <i class="fa-solid fa-laptop-code fa-2x icons"></i>
           </div>
         </div>
-        <div id="fast-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
-          <div class="circle1">
-            <i class="fa-solid fa-gauge-high fa-2x icons"></i>
-            <h3 class="icon-h3">Fast</h3>
-          </div>
-        </div>
-        <div id="dynamic-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
-          <div class="circle1">
-            <i class="fa-solid fa-rocket fa-2x icons"></i>
-            <h3 class="icon-h3">Dynamic</h3>
-          </div>
-        </div>
-      <div id="responsive-icon" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-center">
-        <div class="circle1">
-          <i class="fa-solid fa-laptop-code fa-2x icons"></i>
-          <h3 class="icon-h3">Responsive</h3>
-        </div>
+        <h3 class="icon-h3">Responsive</h3>
+        <p class="paragraph1">Mobile-first approach, my designs will work on any device.</p>
       </div>
     </div>
   </div>
@@ -104,15 +124,72 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about">
         <h2>About me</h2>
-        <p>Hello there! I’m Fred David, Web Developer/Programmer.<br>
-        <br>I’m a Front-end developer, aiming to learn as much as possible in the front-end part to then long-term aim at being considered a Full-stack developer with the projects I make along the way and the Back-end languages I learn.<br>
-        <br>I specialize on JavaScript, and I’m very invested in making code as efficient as possible to further enhance productivity individually and team-based.</p>
+        <div id="paragraph2">
+          <img id="fred-photo" src="images/fred-image.jpeg" alt="Fred's Photo">
+          <p>Hello there! I’m Fred David, Web Developer/Programmer.<br>
+          <br>I’m a Front-end developer, aiming to learn as much as possible in the front-end part to then long-term aim at being considered a Full-stack developer with the projects I make along the way and the Back-end languages I learn.<br>
+          <br>I specialize on JavaScript, and I’m very invested in making code as efficient as possible to further enhance productivity individually and team-based.</p>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about-skills">
-        <h2>Skills</h2>
+
+      <div class="col-sm-6 col-md-6 col-lg-6" id="fred-about-skills">
+        <h2 class="skills-text">Skills</h2>
+          <div class="row skills-row">
+
+            <div class="col-6 col-lg-4">
+              <div class="d-flex justify-content-center">
+              <img src="images/css3-logo.png" alt="CSS3 Logo" class="css3">
+            </div>
+            <p class="paragraph2">CSS3</p>
+          </div>
+
+            <div class="col-6 col-lg-4">
+              <div class="d-flex justify-content-center">
+              <svg class="react-logo" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="1001.13" height="890.65" viewBox="0 0 1001.13 890.65">
+                <circle class="cls-1 react-logo__circle" cx="504.59" cy="444.48" r="89.57" />
+                <path class="cls-2 react-logo__ring react-logo__ring--1" d="M504.59,262.37c120.25,0,232,17.26,316.2,46.26,101.49,34.94,163.88,87.9,163.88,135.85,0,50-66.13,106.24-175.11,142.35-82.4,27.3-190.82,41.55-305,41.55-117,0-227.87-13.38-311.18-41.85-105.42-36-168.91-93-168.91-142,0-47.57,59.57-100.11,159.64-135C268.68,280,383.16,262.37,504.59,262.37Z" />
+                <path class="cls-2 react-logo__ring react-logo__ring--2" d="M346.06,354c60.07-104.17,130.83-192.32,198-250.81,81-70.46,158-98,199.56-74.1,43.29,25,59,110.36,35.83,222.81-17.52,85-59.34,186-116.37,284.95C604.64,638.18,537.69,727.51,471.4,785.45c-83.87,73.32-165,99.85-207.43,75.37-41.2-23.77-57-101.63-37.2-205.74C243.48,567.11,285.39,459.15,346.06,354Z" />
+                <path class="cls-2 react-logo__ring react-logo__ring--3" d="M346.21,537.06C286,433,244.92,327.66,227.82,240.23c-20.61-105.33-6-185.87,35.46-209.9,43.25-25,125.08,4,210.93,80.24C539.12,168.2,605.77,254.89,663,353.69,721.6,455,765.55,557.59,782.65,644c21.63,109.29,4.12,192.79-38.31,217.35-41.16,23.83-116.49-1.4-196.81-70.52C479.66,732.39,407.05,642.15,346.21,537.06Z" />
+              </svg>
+            </div>
+            <p class="paragraph2">React</p>
+          </div> <!--Full credits to Aditya Agarwal for the animation and code, more about the work in https://medium.com/@adityaa803/i-made-a-simple-animation-of-the-react-logo-with-css-and-svg-here-66041004f597-->
+
+            <div class="col-6 col-lg-4">
+              <div class="d-flex justify-content-center">
+              <img src="images/javascript-logo.png" alt="JavaScript Logo" class="javascript">
+            </div>
+            <p class="paragraph2">JavaScript</p>
+          </div>
+
+          <div class="col-6 col-lg-4">
+            <div class="d-flex justify-content-center">
+            <img src="images/bootstrap-logo.svg" alt="Bootstrap Logo" class="bootstrap-img">
+          </div>
+          <p class="paragraph2">Bootstrap</p>
+        </div>
+
+        <div class="col-6 col-lg-4">
+          <div class="d-flex justify-content-center">
+          <img src="images/angular-logo.png" alt="Angular logo" class="angular-img">
+        </div>
+        <p class="paragraph2">Angular</p>
+      </div>
+
+      <div class="col-6 col-lg-4">
+        <div class="d-flex justify-content-center">
+        <img src="images/tailwind-logo.png" alt="Tailwind logo" class="tailwind-img">
+      </div>
+      <p class="paragraph2">Tailwind</p>
+    </div>
+        </div>
       </div>
     </div>
   </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
 </section>
 
 <!-- JavaScript Bundle with Popper -->
