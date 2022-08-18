@@ -125,7 +125,7 @@
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about">
         <h2>About me</h2>
         <div id="paragraph2">
-          <img id="fred-photo" src="images/fred-image.jpeg" alt="Fred's Photo">
+          <img id="fred-photo" src="images/fred-image2.jpeg" alt="Fred's Photo">
           <p>Hello there! I’m Fred David, Web Developer/Programmer.<br>
           <br>I’m a Front-end developer, aiming to learn as much as possible in the front-end part to then long-term aim at being considered a Full-stack developer with the projects I make along the way and the Back-end languages I learn.<br>
           <br>I specialize on JavaScript, and I’m very invested in making code as efficient as possible to further enhance productivity individually and team-based.</p>
@@ -189,14 +189,59 @@
 </section>
 
 <section id="projects">
-  <h2>Projects</h2>
+  <h2 id="projects-h2">Projects</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="loading">Coming Soon</p>
+      </div>
+    </div>
+  </div>
 </section>
+
+<section id="contact">
+  <div class="container">
+    <div class="flex-row">
+      <h2 id="contact-h2" class="col-12 col-sm-12 col-md-12 col-lg-12">Contact</h2>
+        <p class="col-12 col-sm-12 col-md-12 col-lg-12">You can contact me if you want us to work together!</p>
+
+        <form action="https://formsubmit.co/b97417cbbf645cc7a42a069a69b7dd50" method="POST" id="contact-form">
+          <input placeholder="Name" type="text" name="name" required="" class="col-12">
+          <input placeholder="Enter email" type="email" name="email" required="" class="col-12" id="email">
+          <textarea placeholder="Your Message" type="text" name="message" class="col-12"></textarea>
+          <input id="submit" class="button" type="submit" value="SUBMIT">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div id="go-up-sign" class="d-flex justify-content-center"><i class="fa-solid fa-angles-up fa-2x"></i></div>
+    <div id="social-media" class="row">
+      <div class="col-4 col-lg-4 col-xl-4 d-flex justify-content-end ">
+        <a href="https://www.instagram.com/fredwilliamszy/" target="_blank"><i class="fa-brands fa-instagram fa-3x fa-beat" style="--fa-animation-duration: 4s;"></i></a>
+      </div>
+
+      <div class="col-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+        <a href="https://github.com/Wooptiwoop" target="_blank"><i  class="fa-brands fa-github fa-3x fa-beat" style="--fa-animation-duration: 4s;"></i></a>
+      </div>
+
+      <div class="col-4 col-lg-4 col-xl-4 d-flex justify-content-start">
+        <a href="https://www.linkedin.com/in/fred-david-solis-gutierrez-b0a51b1a8" target="_blank"><i class="fa-brands fa-linkedin fa-3x fa-beat" style="--fa-animation-duration: 4s;"></i></a>
+      </div>
+    </div>
+  </div>
+  <p id="copyright">FRED WILLIAMS | <a id="blue-text-copy">&copy 2022</a></p>
+</footer>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://kit.fontawesome.com/a583977524.js" crossorigin="anonymous"></script>
-<script src="javascript/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="javascript/app.js"></script>
 
 </body>
 </html>

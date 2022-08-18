@@ -125,6 +125,8 @@ a:active { text-decoration: none; }
 }
 
 /* About Section */
+/* !About Section */
+/* About Section */
 
 #about {
     height: 1300px;
@@ -296,3 +298,111 @@ a:active { text-decoration: none; }
 .tailwind-img {
     width: 90px;
 }
+
+/* Projects Section */
+/* !Projects Section */
+/* Projects Section */
+
+#projects {
+    background: rgb(15, 15, 15);
+}
+
+#projects-h2 {
+    text-align: center;
+    padding-top: 20vh;
+    color: #fff;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 30vh;
+    margin-bottom: 50vh;
+    color: #fff;
+}
+
+.loading::after {
+    display: inline-block;
+    animation: dotty steps(1,end) 1s infinite;
+    content: '';
+  }
+  
+  @keyframes dotty {
+      0%   { content: ''; }
+      25%  { content: '.'; }
+      50%  { content: '..'; }
+      75%  { content: '...'; }
+      100% { content: ''; }
+  }
+
+/* Contact Section */
+/* !Contact Section */
+/* Contact Section */
+
+#contact {
+    margin-top: 20vh;
+    height: 60vh;
+}
+
+#contact-form {
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+#contact-h2 {
+    font-weight: 600;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+}
+
+#submit {
+    float: right;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: grey;
+    height: 25vh;
+}
+
+#go-up-sign {
+    display: inline-block;
+    justify-content: center;
+    color: #fff;
+    background-color: #ff0000;
+}
+
+#social-media{
+    margin-top: 5vh;
+    padding: 0 10vh;
+}
+
+#copyright {
+    text-align: center;
+    font-size: small;
+    margin-top: 5vh;
+    font-weight: 600;
+}
+
+#blue-text-copy {
+    color: #ff0000;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+  }
+
+  .fa-github {
+    color: #000;
+  }
