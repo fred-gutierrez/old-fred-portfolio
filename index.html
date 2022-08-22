@@ -12,30 +12,31 @@
 </head>
 <body>
 <header>
+
   <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
     <a class="navbar-brand"><i id="terminal-icon" class="fa-solid fa-terminal"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa-solid fa-bars-staggered"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse" id="navbarText top-menu">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+        <li class="nav-item home active">
+          <a class="nav-link" href="#home">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item about">
           <a class="nav-link" href="#about">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item projects">
           <a class="nav-link" href="#projects">Projects</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item contact">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-<div id="home">
+<section id="home">
     <div id="home-background"></div>
   <div class="container">
     <div class="row">
@@ -67,13 +68,14 @@
     </div>
   </div>
 </div>
-</div>
-<img id="wave1" src="images/wave1.svg">
+</section>
+
+<img id="wave1" src="images/wave1.svg" alt="Wave 1 that separates the sections">
 </header>
 
 <section id="about">
   <div id="about-background"></div>
-  <img id="wave2" src="images/wave2.svg">
+  <img id="wave2" src="images/wave2.svg" alt="Wave 2 that separates the sections">
   <h2 id="abouth2">About</h2>
     <div id="icon-container" class="container">
         <div class="row" id="icon-section1">
@@ -199,9 +201,10 @@
   </div>
 </section>
 
-<section id="background-color">
+<section id="contact">
+  <div class="background-color">
   <div id="contact-image"></div>
-  <div id="contact" class="container">
+  <div class="container contact-container">
     <div class="flex-row">
       <h2 id="contact-h2" class="col-12 col-sm-12 col-md-12 col-lg-12">Contact</h2>
         <p class="col-12 col-sm-12 col-md-12 col-lg-12 p-contact">You can contact me if you want us to work together!</p>
@@ -209,15 +212,15 @@
         <form action="https://formsubmit.co/b97417cbbf645cc7a42a069a69b7dd50" method="POST" id="contact-form">
           <input placeholder="Name" type="text" name="name" required="" class="col-12">
           <input placeholder="Enter email" type="email" name="email" required="" class="col-12" id="email">
-          <textarea placeholder="Your Message" type="text" name="message" class="col-12"></textarea>
+          <textarea placeholder="Your Message" name="message" class="col-12"></textarea>
           <input id="submit" class="button" type="submit" value="SUBMIT">
         </form>
       </div>
     </div>
-</section>
+  </div>
 
 <footer id="footer-bg">
-  <div id="footer" class="container">
+  <div class="container">
     <div id="social-media" class="row">
       <div class="col-12 d-flex justify-content-center">
         <a id="sm-1" href="https://www.instagram.com/fredwilliamszy/" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -226,8 +229,9 @@
       </div>
     </div>
   </div>
-  <p id="copyright"><a id="fred-w">FRED WILLIAMS |</a><a id="blue-text-copy"> &copy 2022</a></p>
+  <p id="copyright"><a id="fred-w">FRED WILLIAMS |</a><a id="blue-text-copy"> &copy; 2022</a></p>
 </footer>
+</section>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://kit.fontawesome.com/a583977524.js" crossorigin="anonymous"></script>
