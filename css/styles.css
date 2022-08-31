@@ -215,7 +215,6 @@ a:active { text-decoration: none; }
 }
 
 #fred-photo {
-    width: 200px;
     border-radius: 100px;
     margin: 20px;
     box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
@@ -228,15 +227,6 @@ a:active { text-decoration: none; }
 
 .javascript {
     color: #F0DB4F;
-    width: 90px;
-}
-
-.sass {
-    width: 90px;
-}
-
-.bootstrap-img {
-    width: 113px;
 }
 
 .cls-1 {
@@ -291,14 +281,6 @@ a:active { text-decoration: none; }
   body:hover .react-logo__ring--2, body:hover .react-logo__ring--3 {
     transform: rotateZ(0deg);
   }
-
-.wordpress-img {
-    width: 90px;
-}
-
-.tailwind-img {
-    width: 90px;
-}
 
 /* Projects Section */
 /* !Projects Section */
