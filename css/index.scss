@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+$javascript-color: #F0DB4F;
+
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -63,7 +65,7 @@
 }
 
 .javascript-icon {
-    color: #F0DB4F;
+    color: $javascript-color;
     font-weight: bold;
     font-style: italic;
 }
@@ -127,7 +129,7 @@ a:active { text-decoration: none; }
 }
 
 /* About Section */
-/* !About Section */
+/* About Section */
 /* About Section */
 
 #about {
@@ -226,7 +228,7 @@ a:active { text-decoration: none; }
 }
 
 .javascript {
-    color: #F0DB4F;
+    color: $javascript-color;
 }
 
 .cls-1 {
@@ -405,12 +407,10 @@ footer {
 #copyright {
     text-align: center;
     font-size: small;
-    margin-top: 3vh;
-    font-weight: 700;
-}
-
-#blue-text-copy {
-    color: rgb(97, 192, 255);
+    margin-top: 4vh;
+    font-weight: 600;
+    color: rgb(143, 143, 143);
+    font-size: 15px;
 }
 
 .fa-instagram {
@@ -427,8 +427,4 @@ footer {
 
   .fa-github {
     color: #fff;
-  }
-
-  #fred-w {
-    color: rgb(255, 255, 255);
   }
