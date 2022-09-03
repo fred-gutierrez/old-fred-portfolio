@@ -132,6 +132,10 @@ a:active {
   bottom: 0px;
 }
 
+#wave2 {
+  position: absolute;
+}
+
 /* About Section */
 /* About Section */
 /* About Section */
@@ -159,7 +163,7 @@ a:active {
   font-weight: bold;
   margin-bottom: 8vh;
   color: rgb(255, 255, 255);
-  padding-top: 5vh;
+  padding-top: 8vh;
 }
 
 .circle1 {
@@ -411,12 +415,12 @@ form input, form textarea {
 }
 
 footer {
-  height: 25vh;
+  height: 26vh;
 }
 
 #footer-bg {
   background: rgb(0, 0, 0);
-  height: 25vh;
+  height: 28vh;
   width: 100%;
 }
 
@@ -429,11 +433,6 @@ footer {
   margin: 0 25px 0 25px;
 }
 
-.footer-t {
-  color: #fff;
-  font-style: italic;
-}
-
 #copyright {
   text-align: center;
   font-size: small;
@@ -441,6 +440,7 @@ footer {
   font-weight: 600;
   color: rgb(143, 143, 143);
   font-size: 15px;
+  margin-bottom: 0;
 }
 
 .fa-instagram {
