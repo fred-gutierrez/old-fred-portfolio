@@ -80,9 +80,9 @@
 <section id="about">
   <div id="about-background"></div>
   <img id="wave2" src="images/wave2.svg" alt="Wave 2 that separates the sections">
-  <h2 id="abouth2">About</h2>
+  <h2 class="gs_reveal ipsType_center" id="abouth2">About</h2>
     <div id="icon-container" class="container">
-        <div class="row" id="icon-section1">
+        <div class="row gs_reveal" id="icon-section1">
 
           <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
           <div id="intuitive-icon" class="d-flex justify-content-center">
@@ -128,7 +128,7 @@
 
   <div id="about-text" class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fred-about">
+      <div class="col-12col-sm-6 col-md-6 col-lg-6 gs_reveal gs_reveal_fromLeft" id="fred-about">
         <h2>About me</h2>
         <div id="paragraph2">
           <img class="wobble-hor-bottom" width="200px" height="200px" id="fred-photo" src="images/fred-image2.webp" alt="Fred's Photo">
@@ -138,7 +138,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-6 col-lg-6" id="fred-about-skills">
+      <div class="col-sm-6 col-md-6 col-lg-6 gs_reveal gs_reveal_fromRight" id="fred-about-skills">
         <h2 class="skills-text">Skills</h2>
           <div class="row skills-row">
 
@@ -163,31 +163,45 @@
 
             <div class="col-6 col-lg-4">
               <div class="d-flex justify-content-center jello-horizontal">
-              <img width="90px" height="90px" src="images/javascript-logo.png" alt="JavaScript logo" class="javascript">
+              <img width="90px" height="90px" src="images/typescript.svg" alt="TypeScript logo" class="typescript">
             </div>
-            <p class="paragraph2">JavaScript</p>
+            <p class="paragraph2">TypeScript</p>
           </div>
 
-          <div class="col-6 col-lg-4">
-            <div class="d-flex justify-content-center jello-horizontal">
-            <img width="113px" height="90px" src="images/bootstrap-logo.svg" alt="Bootstrap logo" class="bootstrap-img">
+              <div class="col-6 col-lg-4">
+                <div class="d-flex justify-content-center jello-horizontal">
+                <img width="113px" height="90px" src="images/bootstrap-logo.svg" alt="Bootstrap logo" class="bootstrap-img">
+              </div>
+              <p class="paragraph2">Bootstrap</p>
+            </div>
+
+              <div class="col-6 col-lg-4">
+                <div class="d-flex justify-content-center jello-horizontal">
+                <img width="90px" height="90px" src="images/vitejs.svg" alt="WordPress logo" class="vite-img">
+              </div>
+              <p class="paragraph2">Vite</p>
+            </div>
+
+              <div class="col-6 col-lg-4">
+                <div class="d-flex justify-content-center jello-horizontal">
+                <img width="90px" height="90px" src="images/tailwind-logo.webp" alt="Tailwind logo" class="tailwind-img">
+              </div>
+              <p class="paragraph2">Tailwind</p>
+            </div>
+
+              <div class="col-6 col-lg-6">
+                <div class="d-flex justify-content-center jello-horizontal">
+                <img width="90px" height="90px" src="images/javascript-logo.png" alt="Tailwind logo" class="tailwind-img">
+              </div>
+              <p class="paragraph2">JavaScript</p>
+            </div>
+
+            <div class="col-6 col-lg-6">
+              <div class="d-flex justify-content-center jello-horizontal">
+              <img width="90px" height="90px" src="images/gsap-greensock.svg" alt="GreenSock logo" class="greensock-img">
+            </div>
+            <p class="paragraph2">GreenSock</p>
           </div>
-          <p class="paragraph2">Bootstrap</p>
-        </div>
-
-        <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
-          <img width="90px" height="90px" src="images/wordpress-logo.webp" alt="WordPress logo" class="wordpress-img">
-        </div>
-        <p class="paragraph2">WordPress</p>
-      </div>
-
-      <div class="col-6 col-lg-4">
-        <div class="d-flex justify-content-center jello-horizontal">
-        <img width="90px" height="90px" src="images/tailwind-logo.webp" alt="Tailwind logo" class="tailwind-img">
-      </div>
-      <p class="paragraph2">Tailwind</p>
-    </div>
         </div>
       </div>
     </div>
@@ -195,7 +209,7 @@
 </section>
 
 <section id="projects">
-  <h2 id="projects-h2">Projects</h2>
+  <h2 style="font-weight: 600;" class="gs_reveal ipsType_center" id="projects-h2">Projects</h2>
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -208,10 +222,10 @@
 <section id="contact">
  <div class="background-color">
   <div id="contact-image"></div>
-  <div class="container contact-container">
-    <div class="flex-row">
-      <h2 id="contact-h2" class="col-12 col-sm-12 col-md-12 col-lg-12">Contact</h2>
-        <p class="col-12 col-sm-12 col-md-12 col-lg-12 p-contact">You can contact me if you want us to work together!</p>
+  <div class="container contact-container gs_reveal">
+    <div class="flex-row col-12">
+      <h2 class="col-12" id="contact-h2">Contact</h2>
+        <p class="p-contact col-12">You can contact me if you want us to work together!</p>
 
         <form action="https://formsubmit.co/b97417cbbf645cc7a42a069a69b7dd50" method="POST" id="contact-form">
           <input placeholder="Name" type="text" name="name" required="" class="col-12">
@@ -224,31 +238,33 @@
  </div>
 
 <footer id="footer-bg">
-  <div class="container">
+  <div class="container gs_reveal">
     <div id="social-media" class="row">
       <div class="col-12 d-flex justify-content-center">
-        <a id="sm-1" href="https://www.instagram.com/fredwilliamszy/" target="_blank">
-          <i class="fa-brands fa-instagram fa-3x slide-top"></i><br><span class="footer-t"></span></a>
+        <a id="sm-1" href="https://www.instagram.com/fredwilliamszy/" class="slide-top" target="_blank">
+          <i class="fa-brands fa-instagram fa-3x"></i><br><span class="footer-t"></span></a>
 
-        <a id="sm-2" href="https://github.com/fred-gutierrez" target="_blank">
-          <i  class="fa-brands fa-github fa-3x slide-top"></i><br><span class="footer-t"></span></a>
+        <a id="sm-2" href="https://github.com/fred-gutierrez" class="slide-top" target="_blank">
+          <i  class="fa-brands fa-github fa-3x"></i><br><span class="footer-t"></span></a>
 
-        <a id="sm-3" href="https://www.linkedin.com/in/fred-david-solis-gutierrez-b0a51b1a8" target="_blank">
-          <i class="fa-brands fa-linkedin fa-3x slide-top"></i><br><span class="footer-t"></span></a>
+        <a id="sm-3" href="https://www.linkedin.com/in/fred-david-solis-gutierrez-b0a51b1a8" class="slide-top" target="_blank">
+          <i class="fa-brands fa-linkedin fa-3x"></i><br><span class="footer-t"></span></a>
       </div>
     </div>
   </div>
-  <p class="col-12" id="copyright">Built with <img src="images/sass-logo.webp" width="40px" height="40px" alt="Sass Logo">and
-     <img src="images/bootstrap-logo.svg" alt="Bootstrap Logo" width="40px" height="40px"> by <a style="font-style: italic; color:white">Fred David Solís Gutiérrez</a> | 2022</p>
+  <p class="col-12 gs_reveal" id="copyright">Built with <img src="images/sass-logo.webp" width="40px" height="40px" alt="Sass Logo">, 
+     <img src="images/bootstrap-logo.svg" alt="Bootstrap Logo" width="40px" height="40px"> and <img src="images/gsap-greensock.svg" width="40px" height="40px" alt="GreenSock Logo">
+      by <a style="font-style: italic; color:rgb(255, 255, 255)">Fred David Solís Gutiérrez</a> | 2022</p>
 </footer>
 </section>
 
 <!-- JavaScript Bundle with Popper -->
-<script src="javascript/app.js" text="javascript"></script>
-<script src="javascript/animations.js" text="javascript"></script>
 <script src="https://kit.fontawesome.com/a583977524.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+<script src="javascript/app.js" text="javascript"></script>
+<script src="javascript/animations.js" text="javascript"></script>
 </body>
 </html>

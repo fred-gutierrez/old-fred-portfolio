@@ -374,7 +374,7 @@ body:hover .react-logo__ring--2, body:hover .react-logo__ring--3 {
   height: 75vh;
   width: 100%;
   position: absolute;
-  background-image: url(../images/waves.webp);
+  background-image: url(../images/lake.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -384,6 +384,25 @@ body:hover .react-logo__ring--2, body:hover .react-logo__ring--3 {
   margin: 40px auto 0 auto;
   padding: 0 20px;
   line-height: 30px;
+}
+
+#contact-form input {
+  background: rgba(0, 199, 255, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 0;
+  color: white;
+}
+#contact-form textarea {
+  background: rgba(0, 199, 255, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 0;
+  color: white;
 }
 
 #contact-h2 {
@@ -412,6 +431,7 @@ form input, form textarea {
   background: #fff;
   color: #000;
   transition: 0.5s ease;
+  box-shadow: 0 0 10px #fff;
 }
 
 footer {
@@ -419,7 +439,7 @@ footer {
 }
 
 #footer-bg {
-  background: rgb(0, 0, 0);
+  background: rgb(14, 14, 14);
   height: 28vh;
   width: 100%;
 }
