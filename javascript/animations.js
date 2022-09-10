@@ -21,6 +21,8 @@ reveal();
 //----------------------------------------//
 //----------------------------------------//
 
+const vw = Math.max(document.documentElement.clientWidth || 575.98, window.innerWidth || 575.98)
+
 function animateFrom(elem, direction) {
   direction = direction || 1;
   var x = 0,
