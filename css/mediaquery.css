@@ -18,9 +18,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #fred-top > h1 {
-        font-weight: bold;
-    }
     .circle1 {
         margin-bottom: 5px;
     }

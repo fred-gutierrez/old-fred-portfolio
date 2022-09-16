@@ -13,6 +13,12 @@ $javascript-color: #F0DB4F;
     color: white;
 }
 
+#fred-top {
+    h1 {
+        font-weight: 550;
+    }
+}
+
 .navbar {
     opacity: 1;
     transition: background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s;
