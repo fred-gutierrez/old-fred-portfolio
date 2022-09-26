@@ -8,12 +8,6 @@
     .skills-row {
         margin-top: 10vh;
     }
-    #about-background {
-        height: 1550px;
-    }
-    #about {
-        height: 1550px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -50,10 +44,10 @@
         margin-bottom: -0.5px;
     }
     #about-background {
-        height: 2450px;
+        height: 2600px;
     }
     #about {
-        height: 2450px;
+        height: 2600px;
     }
     .skills-text {
         margin-top: 6vh;

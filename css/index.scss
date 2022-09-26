@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@font-face {
+    font-family: GeneralSans;
+    src: url(/fonts/GeneralSans-Regular.ttf);
+}
 
 $javascript-color: #F0DB4F;
+$general-font: GeneralSans;
 
 * {
     box-sizing: border-box;
@@ -143,7 +148,7 @@ a:active { text-decoration: none; }
 /* About Section */
 
 #about {
-    height: 1300px;
+    height: 1550px;
     background: rgba(0, 0, 0, 0.9);
     width: 100%;
 }
@@ -153,7 +158,7 @@ a:active { text-decoration: none; }
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 1300px;
+    height: 1550px;
     width: 100%;
     position:absolute;
     z-index: -1;
@@ -235,6 +240,8 @@ a:active { text-decoration: none; }
 
 .paragraph2 {
     text-align: center;
+    font-family: $general-font;
+    margin-top: 10px;
 }
 
 .javascript {
