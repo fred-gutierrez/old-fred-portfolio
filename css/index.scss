@@ -145,12 +145,12 @@ a:active {
   line-height: 1.5;
 }
 
-#wave1 {
+.wave1 {
   position: absolute;
   bottom: 0px;
 }
 
-#wave2 {
+.wave2 {
   position: absolute;
 }
 
@@ -320,7 +320,7 @@ body:hover .react-logo__ring--3 {
 /* Projects Section */
 
 #projects {
-  background: rgb(15, 15, 15);
+  background: rgba(0, 0, 0, 0.85);
   height: 110vh;
 }
 
@@ -334,12 +334,23 @@ body:hover .react-logo__ring--3 {
   width: 35px;
 }
 
+#project-image {
+  z-index: -1;
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  background-image: url(../images/coding-gif3.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Contact Section */
 /* !Contact Section */
 /* Contact Section */
 
 .background-color {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   height: 75vh;
   width: 100%;
 }
@@ -355,7 +366,7 @@ body:hover .react-logo__ring--3 {
   height: 75vh;
   width: 100%;
   position: absolute;
-  background-image: url(../images/lake.webp);
+  background-image: url(../images/gradient.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -369,7 +380,7 @@ body:hover .react-logo__ring--3 {
 
 #contact-form {
   input {
-    background: rgba(0, 199, 255, 0.28);
+    background: rgba(255, 255, 255, 0.28);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
@@ -378,7 +389,7 @@ body:hover .react-logo__ring--3 {
     color: white;
   }
   textarea {
-    background: rgba(0, 199, 255, 0.28);
+    background: rgba(255, 255, 255, 0.28);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
@@ -422,8 +433,12 @@ footer {
   height: 26vh;
 }
 
+/* Contact Section */
+/* !Contact Section */
+/* Contact Section */
+
 #footer-bg {
-  background: rgb(14, 14, 14);
+  background: rgb(8, 8, 8);
   height: 28vh;
   width: 100%;
 }

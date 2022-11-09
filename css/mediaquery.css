@@ -62,6 +62,9 @@
   #projects {
     height: 180vh;
   }
+  #project-image {
+    height: 180vh;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
